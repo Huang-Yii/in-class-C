@@ -1,0 +1,15 @@
+﻿生成启动时间为 2022/5/15 23:55:33。
+     1>项目“D:\code\operating system\operating system\operating system.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt test.c
+         test.c
+     1>d:\code\operating system\operating system\test.c(7): warning C4005: “NULL”: 宏重定义
+         d:\vs2015\vc\include\vcruntime.h(226): note: 参见“NULL”的前一个定义
+       Link:
+         D:\vs2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\code\operating system\Debug\operating system.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\code\operating system\Debug\operating system.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\code\operating system\Debug\operating system.lib" /MACHINE:X86 Debug\test.obj
+         operating system.vcxproj -> D:\code\operating system\Debug\operating system.exe
+     1>已完成生成项目“D:\code\operating system\operating system\operating system.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.65
